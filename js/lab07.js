@@ -6,6 +6,7 @@ var ids = ['am6', 'am7', 'am8', 'am9', 'am10', 'am11', 'pm12', 'pm1', 'pm2', 'pm
 var datas = [];
 var results = [];
 
+
 function Store(custoerMinNumber, customerMaxNumber, averageperHours) {
   this.custoerMinNumber = custoerMinNumber;
   this.customerMaxNumber = customerMaxNumber;
