@@ -28,3 +28,32 @@
 #empty{
     visibility: hidden;
 }
+#myForm{
+    width: 30%;
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #A84934;
+}
+footer a ,p a{
+    color: #CCB667;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline;
+    padding: 15px;
+    margin-left: 50px;
+    border: 2px solid black;
+}
+nav li a{
+ color: #16181C; 
+ text-decoration: none;  
+}
+nav li:hover{
+    background-color: #BA8648;
+    transition: 2s;
+}
+.storess,#ltotal{
+    color: #CCB667;
+}
