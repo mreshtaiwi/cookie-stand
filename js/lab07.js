@@ -115,7 +115,7 @@ for (let i = 0; i < shops.length; i++) {
 
 function handleSubmit(event) {
   if (event.target.name.value !== '' && event.target.min.value !== '' && event.target.max.value !== '' && event.target.avg.value !== '') {
-    if (event.target.min > event.target.max) {
+    if (event.target.min <= event.target.max) {
       event.preventDefault();
       var storename = event.target.name.value;
       var min = parseInt(event.target.min.value);
